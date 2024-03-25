@@ -2,7 +2,8 @@
     "java.project.referencedLibraries": {
         "include": [
             "lib/**/*.jar",
-            "/Users/cherrie/Documents/ICS3U1b 2023:24/JARs/core.jar"
+            "/Users/cherrie/Documents/ICS3U1b 2023:24/JARs/core.jar",
+            "c:\\Users\\ellas\\OneDrive\\Desktop\\ICS 3U1b (CS 11)\\core (1).jar"
         ],
         "exclude": [
             "lib/repl_core.jar"
