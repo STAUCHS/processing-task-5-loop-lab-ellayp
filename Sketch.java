@@ -1,26 +1,33 @@
 import processing.core.PApplet;
 
+/**
+ * The program Sketch.java makes an image with 8 sections and 8 different patterns.
+ * @author: E. Yap
+ */
+
 public class Sketch extends PApplet {
 	
 	
   /**
-   * Called once at the beginning of execution, put your size all in this method
+   * Called once at the beginning of execution
+   * Size call in this method
    */
   public void settings() {
-	  // put your size call here
+	  // Size call
     size(1200, 600);
   }
 
   /** 
-   * Called once at the beginning of execution.  Add initial set up
-   * values here i.e background, stroke, fill etc.
+   * Called once at the beginning of execution
+   * Initial set up values here
+   * i.e., background
    */
   public void setup() {
     background(45, 150, 207);
   }
 
   /**
-   * Called repeatedly, anything drawn to the screen goes here
+   * Called repeatedly, everything drawn to the screen
    */
   public void draw() {
     draw_section_outlines();
